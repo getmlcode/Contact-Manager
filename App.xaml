@@ -1,0 +1,20 @@
+﻿<Application xamlPrefix:Class="ContactManager.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:xamlPrefix="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:Presenters="clr-namespace:ContactManager.Presenters"
+             StartupUri="Shell.xaml">
+
+    <Application.Resources>
+
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Resources\ColorsAndBrushes.xaml" />
+                <ResourceDictionary Source="Resources\DefaultStyles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+
+            <Presenters:PhoneConverter xamlPrefix:Key="phoneConverter" />
+        </ResourceDictionary>
+
+    </Application.Resources>
+    
+</Application>

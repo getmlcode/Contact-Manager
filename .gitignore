@@ -1,0 +1,12 @@
+*.bat
+*.sln
+*.pyproj
+*.data*
+*.meta*
+*.index*
+.vs
+.git
+model/
+bin/
+obj/
+Properties/
